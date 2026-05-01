@@ -7,7 +7,7 @@ const timeLabel = document.getElementById("timeLabel");
 const quotes = [
   {
     text: "LinkedIn profile for professional networking, internships, and industry connections.",
-    meta: "Username: priyranjan-kumar"
+    meta: "Profile: priyranjan-kumar-55a8182b0"
   },
   {
     text: "GitHub profile featuring coding practice, project repositories, and technical progress.",
@@ -15,7 +15,7 @@ const quotes = [
   },
   {
     text: "Instagram account for updates and personal/creative highlights.",
-    meta: "Username: priyranjan_kumar"
+    meta: "Username: prearjan"
   }
 ];
 
@@ -39,9 +39,9 @@ function setQuote(index) {
   quoteMeta.textContent = quote.meta;
   if (profileAction) {
     const profileLinks = [
-      "https://www.linkedin.com/in/priyranjan-kumar",
+      "https://www.linkedin.com/in/priyranjan-kumar-55a8182b0/?skipRedirect=true",
       "https://github.com/Priyranjan-Kumar04",
-      "https://www.instagram.com/priyranjan_kumar"
+      "https://www.instagram.com/prearjan/"
     ];
     profileAction.href = profileLinks[index] || profileLinks[0];
   }
